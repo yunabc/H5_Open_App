@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="description" content="" />
+	<title>H5打开app</title>
+</head>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jumpapp.js"></script>
+<body>
+	<div><button style="width: 100%;height: 200px;font-size: 50px;" onclick="openApp();">跳转App测试按钮</button></div>
+<script type="text/javascript">
+    //跳转app
+    function openApp(){
+    	jumpObj.openApp(1, {"courseid": 10});
+    }
+</script>
+</body>
+</html>
